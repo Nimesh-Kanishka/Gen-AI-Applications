@@ -48,7 +48,7 @@ history_agent = Agent(model=model,
 
 coding_system_prompt = """
 You are an agent that supports students with coding.
-Provide correct and optimized codes along with detailed explanations of each line.
+Provide correct and optimized codes (if required) and detailed explanations.
 """
 coding_agent = Agent(model=model,
                      system_prompt=history_system_prompt)
